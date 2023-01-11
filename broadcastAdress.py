@@ -26,7 +26,8 @@ def main():
         subnet_mask = input("Enter a subnet mask: ")
 
         broadcast_address = calculate_broadcast_address(ip_address, subnet_mask)
-        print(f"Broadcast address: {broadcast_address}")
+        print("Broadcast address: %s" % broadcast_address)
+
 
 
 main()
